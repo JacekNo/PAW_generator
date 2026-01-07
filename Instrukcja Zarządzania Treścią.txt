@@ -1,0 +1,59 @@
+
+# Instrukcja Zarządzania Treścią (PAW)
+
+Ten dokument opisuje, jak dodawać nowe zdjęcia do galerii oraz jak wprowadzać nowe szablony grafik.
+
+---
+
+## 📸 CZĘŚĆ 1: Dodawanie nowych zdjęć do Galerii
+
+System posiada automatyczny skaner, który wykrywa nowe pliki w folderach.
+
+### Krok 1: Wgraj pliki
+Wejdź do folderu `assets/gallery/`.
+Wgraj zdjęcia do odpowiednich folderów kategorii (np. `Fryzjerstwo`, `Masaż`).
+* *Wskazówka:* Możesz tworzyć nowe foldery – system automatycznie stworzy dla nich nowe kategorie.
+
+### Krok 2: Uruchom Skaner
+Aby system "zauważył" nowe zdjęcia, musisz zaktualizować bazę danych.
+1. Otwórz terminal w folderze projektu.
+2. Wpisz komendę:
+   ```bash
+   python scanner.py
+Jeśli zobaczysz komunikat ✅ ZAKOŃCZONO, nowe zdjęcia zostały dodane do bazy data/gallery.json. Uwaga: Skaner nie usuwa starych opisów ani tagów. Jest bezpieczny.
+
+Krok 3: Opisz i otaguj (Opcjonalne, ale zalecane)
+Aby wyszukiwarka działała precyzyjnie, otwórz plik data/gallery.json w edytorze tekstu. Znajdź nowe wpisy (zazwyczaj na końcu kategorii) i uzupełnij pole tags:
+
+JSON
+
+{
+    "filename": "Fryzjerstwo/nowe_ciecie.jpg",
+    "title": "Nowoczesne strzyżenie męskie",
+    "tags": ["barber", "nożyczki", "mężczyzna", "praktyka"], 
+    "isNew": true
+}
+isNew: true – sprawi, że na zdjęciu pojawi się badge "NOWOŚĆ".
+
+
+
+🎨 CZĘŚĆ 2: Dodawanie nowego szablonu (Generator)
+Chcesz dodać nowy format (np. "Tło na LinkedIn")?
+
+Krok 1: Przygotuj plik PNG
+Stwórz ramkę w Photoshopie/Canvie. Środek musi być przezroczysty. Zapisz plik w assets/overlays/ (np. Linkedin_Header.png).
+
+Krok 2: Edytuj Konfigurację
+Otwórz plik konfiguracyjny danej marki, np. js/modules/config-szkolenia.js. Dodaj nowy obiekt do listy:
+
+JavaScript
+
+{
+    id: 'linkedin',               // Unikalne ID (bez spacji)
+    name: 'Nagłówek LinkedIn',    // Nazwa widoczna w generatorze
+    w: 1584, h: 396,              // Wymiary grafiki
+    hasText: false,               // Czy ma mieć edytowalne teksty?
+    photoHeight: 396,             // Wysokość obszaru na zdjęcie
+    overlay: 'assets/overlays/Linkedin_Header.png' // Ścieżka do ramki
+}
+Po zapisaniu pliku i odświeżeniu strony, nowy format pojawi się automatycznie w generatorze.

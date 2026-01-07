@@ -1,0 +1,74 @@
+:root {
+    /* --- BRANDOWE KOLORY (Domyślne - TEB Szkolenia) --- */
+    /* Te zmienne będziemy nadpisywać dla innych szkół! */
+    --color-primary: #0940A0;       
+    --color-primary-dark: #062e75;
+    --color-accent: #FFC965;
+    
+    /* --- UI COLORS --- */
+    --color-bg-page: #F5F8F9;
+    --color-bg-surface: #FFFFFF;
+    --color-border: #D9E4F6;
+    
+    --text-primary: #1D1D1B;
+    --text-secondary: #555555;
+    --text-tertiary: #A1ABB9;
+
+/* --- 2. TYPOGRAFIA (System) --- */
+    --font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    
+    /* Rozmiary czcionek (Scale) */
+    --font-size-xs: 11px;  /* Eyebrow, stopki, detale */
+    --font-size-sm: 13px;  /* Pomocnicze teksty */
+    --font-size-md: 15px;  /* Body - tekst główny */
+    --font-size-lg: 18px;  /* Nagłówki kart */
+    --font-size-xl: 20px;  /* H2 - Tytuły sekcji */
+    --font-size-xxl: 28px; /* H1 - Tytuł strony */
+    
+    /* Wagi (Grubość) */
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    
+    /* Interlinia (Wysokość wiersza - dla czytelności) */
+    --line-height-tight: 1.2; /* Dla nagłówków */
+    --line-height-base: 1.5;  /* Dla tekstu czytanego */
+
+    /* Mapowanie na semantykę (Aliasy) */
+    /* Dzięki temu w CSS używamy var(--h1-size) zamiast pamiętać piksele */
+    
+    /* H1 (Tytuł strony) */
+    --h1-size: var(--font-size-xxl);
+    --h1-weight: var(--font-weight-bold);
+    --h1-height: var(--line-height-tight);
+    
+    /* H2 (Tytuł sekcji np. "Edytor") */
+    --h2-size: var(--font-size-xl);
+    --h2-weight: var(--font-weight-semibold);
+    --h2-height: var(--line-height-tight);
+    
+    /* H3 (Tytuł mały np. etykieta pola) */
+    --h3-size: 16px; /* Specyficzny rozmiar pośredni */
+    --h3-weight: var(--font-weight-bold);
+    
+    /* Body (Tekst zwykły) */
+    --body-size: var(--font-size-md);
+    
+    /* Eyebrow (Mały tekst nad nagłówkiem) */
+    --eyebrow-size: var(--font-size-xs);
+    --eyebrow-weight: var(--font-weight-bold);
+    --eyebrow-spacing: 1px; /* Rozstrzelenie liter */
+
+    /* --- WYMIARY --- */
+    --container-max-width: 1800px;
+    --panel-width: 380px;
+    --input-height: 48px;
+
+    /* --- UI DETALE --- */
+    --radius-md: 8px;
+    --radius-lg: 12px;
+    --shadow-card: 0 2px 4px rgba(0,0,0,0.02), 0 4px 12px rgba(9, 64, 160, 0.06);
+    --shadow-pop: 0 10px 30px rgba(9, 64, 160, 0.15);
+    
+    --transition-fast: 0.15s ease-out;
+}

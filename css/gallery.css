@@ -1,0 +1,185 @@
+/* --- MODAL (OVERLAY) --- */
+.modal-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(29, 29, 27, 0.6); /* Ciemny półprzezroczysty */
+    backdrop-filter: blur(4px);       /* Efekt rozmycia tła (Glassmorphism) */
+    z-index: 2000;                    /* Musi być najwyżej (nad navbarem) */
+    display: none;                    /* Domyślnie ukryty */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Klasa dodawana przez JS, żeby pokazać modal */
+.modal-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+/* --- OKNO MODALA --- */
+.modal-content {
+    width: 90%;
+    max-width: 1200px;
+    height: 85vh; /* 85% wysokości ekranu */
+    background: var(--color-bg-surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-pop);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Żeby nic nie wystawało poza zaokrąglenia */
+    position: relative;
+}
+
+/* HEADER MODALA */
+.modal-header {
+    padding: 20px 25px;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-bg-surface);
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 28px;
+    line-height: 1;
+    color: var(--text-tertiary);
+    cursor: pointer;
+    transition: var(--transition-fast);
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.close-btn:hover {
+    color: var(--color-primary);
+    transform: rotate(90deg);
+}
+
+/* --- UKŁAD WEWNĄTRZ (SIDEBAR + GRID) --- */
+.gallery-layout {
+    display: flex;
+    flex: 1;
+    overflow: hidden; /* Ważne dla scrollowania */
+}
+
+/* 1. LEWY PANEL (KATEGORIE) */
+.gallery-sidebar {
+    width: 260px;
+    background: #fcfdfe; /* Bardzo jasny szary, prawie biały */
+    border-right: 1px solid var(--color-border);
+    overflow-y: auto;
+    padding: 20px 0;
+    flex-shrink: 0;
+}
+
+.gallery-sidebar ul {
+    list-style: none;
+    padding: 0; margin: 0;
+}
+
+.category-item {
+    padding: 12px 25px;
+    cursor: pointer;
+    color: var(--text-secondary);
+    font-size: 14px;
+    font-weight: 600;
+    transition: var(--transition-fast);
+    border-left: 3px solid transparent;
+}
+
+.category-item:hover {
+    background: #f0f4fa;
+    color: var(--color-primary);
+}
+
+.category-item.active {
+    background: #edf2f9;
+    color: var(--color-primary);
+    border-left-color: var(--color-primary);
+}
+
+/* 2. PRAWY PANEL (ZDJĘCIA) */
+.gallery-main {
+    flex: 1;
+    padding: 25px;
+    overflow-y: auto;
+    background: var(--color-bg-page);
+}
+
+/* SIATKA ZDJĘĆ */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+/* POJEDYNCZY KAFELEK ZDJĘCIA */
+.gallery-item {
+    position: relative;
+    aspect-ratio: 1; /* Kwadrat */
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid var(--color-border);
+    background: white;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-primary);
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05); /* Lekki zoom zdjęcia */
+}
+
+/* OVERLAY NA ZDJĘCIU (np. nazwa pliku) */
+.gallery-item-overlay {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 11px;
+    padding: 8px;
+    transform: translateY(100%);
+    transition: transform 0.2s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gallery-item:hover .gallery-item-overlay {
+    transform: translateY(0);
+}
+
+/* Placeholder gdy brak zdjęć */
+.gallery-empty {
+    text-align: center;
+    padding: 50px;
+    color: var(--text-tertiary);
+    grid-column: 1 / -1;
+}
+
+/* --- RESPONSYWNOŚĆ --- */
+@media (max-width: 768px) {
+    .gallery-layout { flex-direction: column; }
+    .gallery-sidebar { width: 100%; height: 150px; border-right: none; border-bottom: 1px solid var(--color-border); }
+    .modal-content { height: 95vh; width: 95%; }
+}

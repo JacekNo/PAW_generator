@@ -1,0 +1,218 @@
+/* css/_layout.css */
+
+/* --- 1. GLOBALNY RESET (NAPRAWA WYMIARÓW) --- */
+/* To sprawia, że padding nie powiększa elementów. Kluczowe! */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* RESET PODSTAWOWY */
+body { 
+    margin: 0; 
+    font-family: var(--font-family); 
+    background: var(--color-bg-page); 
+    color: var(--text-primary); 
+    line-height: 1.5; 
+    overflow-y: scroll;
+    
+    /* FIX: Dodajemy padding, bo nawigacja będzie teraz FIXED (wisząca) */
+    /* Wysokość nawigacji to 70px, więc dajemy tyle samo odstępu */
+    padding-top: 70px; 
+}
+
+h1,h2,h3,p { margin: 0; }
+
+/* --- HEADER & NAV (Z Twoim działającym kodem) --- */
+
+.main-nav {
+    background: var(--color-bg-surface); 
+    height: 70px; 
+    padding: 0 30px;
+    
+    /* ZMIANA ZE STICKY NA FIXED */
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; /* Musimy wymusić szerokość, bo fixed ją traci */
+    
+    z-index: 1000; /* Zawsze na wierzchu */
+    
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid var(--color-border); 
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
+.nav-left { display: flex; align-items: center; gap: 40px; }
+.nav-logo { height: 32px; }
+.nav-links { display: flex; gap: 5px; list-style: none; padding: 0; margin: 0; }
+
+.nav-link { 
+    display: flex; align-items: center; gap: 8px; 
+    padding: 8px 18px; 
+    text-decoration: none; color: var(--text-secondary); 
+    font-weight: 600; font-size: 14px; 
+    border-radius: 50px; 
+    transition: var(--transition-fast); 
+    position: relative; 
+}
+
+.nav-link:hover { color: var(--color-primary); background: #f5f8fd; }
+.nav-link.active { 
+    color: var(--color-primary); 
+    background: #E8F0FE; 
+    font-weight: 700;
+}
+
+/* DROPDOWN (Z fixem na zamykanie) */
+.nav-item { position: relative; height: 100%; display: flex; align-items: center; }
+
+.dropdown-menu { 
+    display: none; position: absolute; top: 100%; left: 0; 
+    background: white; border: 1px solid var(--color-border); 
+    border-radius: var(--radius-md); 
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15); 
+    min-width: 220px; padding: 8px 0; 
+    flex-direction: column; margin-top: 10px; 
+    z-index: 2000;
+}
+/* Mostek, żeby menu nie znikało */
+.dropdown-menu::before { content: ''; position: absolute; top: -20px; left: 0; width: 100%; height: 20px; background: transparent; }
+
+.nav-item:hover .dropdown-menu { display: flex; animation: fadeIn 0.2s ease-out; }
+.dropdown-item { padding: 10px 20px; text-decoration: none; color: var(--text-primary); font-size: 14px; display: flex; justify-content: space-between; }
+.dropdown-item:hover { background: #f9f9f9; color: var(--color-primary); }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
+/* --- APP CONTAINER (Naprawa marginesów) --- */
+.app-container { 
+    position: relative;
+    z-index: 2;
+    display: flex; 
+    max-width: var(--container-max-width); 
+    margin: 0 auto; 
+    padding: 40px 30px; /* Większy padding góra/dół */
+    gap: 40px; 
+    align-items: flex-start; 
+}
+.sidebar { width: var(--panel-width); flex-shrink: 0; position: sticky; top: 100px; }
+.main-content { flex: 1; min-width: 0; }
+
+/* CONTEXT BAR */
+.context-bar { background: var(--color-bg-surface); border-bottom: 1px solid var(--color-border); padding: 25px 0; margin-bottom: 0; /* Usuwamy margines, container ma padding */ }
+.context-container { max-width: var(--container-max-width); margin: 0 auto; padding: 0 30px; }
+
+
+/* PULPIT HERO - Kontener główny */
+.hub-hero { 
+    position: relative; /* Ważne dla pozycjonowania mgły */
+    text-align: center; 
+    padding: 60px 20px 40px; 
+    background: transparent; /* Usuwamy tło, żeby mgła działała na tle strony */
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+/* --- 1. MGŁA (Ambient Fog - Naprawiona) --- */
+.ambient-fog {
+    position: absolute;
+    
+    /* Ustawiamy ją wyżej (top: 0 lub nawet -50px), 
+       żeby maska górna zaczynała się płynnie od samej góry sekcji */
+    top: -50px; 
+    
+    /* Rozciągamy na cały ekran */
+    width: 100vw; 
+    left: 50%;
+    margin-left: -50vw; 
+    
+    height: 1000px; /* Nieco wyższa, żeby łagodniej zanikała */
+    
+    /* WARSTWA: -1 wrzuca to pod spód standardowego kontekstu strony */
+    z-index: -1; 
+    pointer-events: none;
+    
+    /* Rozmycie */
+    filter: blur(120px); 
+    opacity: 0.6; 
+    
+    /* Kolory (bez zmian) */
+    background-image: 
+        radial-gradient(circle at 20% 20%, rgba(199, 131, 159, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 80% 10%, rgba(184, 221, 213, 0.5) 0%, transparent 50%),
+        radial-gradient(circle at 50% 40%, rgba(245, 176, 98, 0.3) 0%, transparent 60%),
+        radial-gradient(circle at 10% 80%, rgba(203, 175, 209, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 90% 90%, rgba(15, 68, 150, 0.15) 0%, transparent 60%);
+        
+    /* NOWA MASKA: ZANIKANIE GÓRA I DÓŁ */
+    /* transparent 0% -> black 30% (stopniowe pojawianie się od góry) */
+    /* black 70% -> transparent 100% (stopniowe zanikanie na dole) */
+    mask-image: linear-gradient(to bottom, 
+        transparent 0%, 
+        black 50%, 
+        black 70%, 
+        transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(to bottom, 
+        transparent 0%, 
+        black 50%, 
+        black 70%, 
+        transparent 100%
+    );
+}
+
+/* --- 2. SYGNET (Luźny) --- */
+.hero-logo {
+    margin-bottom: 25px;
+    /* Brak ramek, brak tła */
+}
+
+.hero-signet {
+    height: 80px; /* Nieco większe logo */
+    width: auto;
+    
+    /* Cień w kolorze brandu, żeby logo było czytelne na mgle */
+    filter: drop-shadow(0 15px 30px rgba(15, 68, 150, 0.2));
+    
+    transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Animacja logo: Delikatne unoszenie */
+.hero-signet:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+/* Stylizacja Logo/Sygnetu */
+.hero-signet {
+    height: 120px; /* Optymalna wielkość sygnetu */
+    width: auto;
+    object-fit: contain;
+    
+    /* Cień w kolorze Brandu (#0F4496), żeby logo "wyskoczyło" z tła */
+    filter: drop-shadow(0 10px 20px rgba(15, 68, 150, 0.2));
+    
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Mikro-interakcja: Unoszenie logo po najechaniu na tło */
+.hero-branding:hover .hero-signet {
+    transform: scale(1.1) translateY(-5px);
+}
+
+/* HUB GRID (Kafelki) */
+.hub-grid { 
+    display: grid; 
+    /* Fix: Ustawiamy minimalną szerokość kafelka na 320px */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+    gap: 30px; 
+    max-width: 1200px; 
+    margin: 40px auto 80px; /* Margines od góry, żeby nie kleiło się do Hero */
+    padding: 0 30px; 
+}
+
+/* PREVIEW GRID */
+.preview-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px; align-items: start; max-width: 1050px; }
+.preview-card:nth-child(1), .preview-card:nth-child(2), .preview-card:nth-child(3) { grid-column: span 2; }
+.preview-card:nth-child(4), .preview-card:nth-child(5) { grid-column: span 3; }
+
+@media (max-width: 1400px) { .preview-grid { grid-template-columns: repeat(2, 1fr); } .preview-card:nth-child(n) { grid-column: span 1; } .preview-card:nth-child(3) { grid-column: span 2; } }
+@media (max-width: 900px) { .app-container { flex-direction: column; } .sidebar { width: 100%; position: static; } .preview-grid { grid-template-columns: 1fr; } }

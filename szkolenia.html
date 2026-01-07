@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator TEB Szkolenia - PAW</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div id="paw-nav"></div>
+
+    <div id="page-context" 
+         data-title="Generator Grafik TEB Szkolenia"
+         data-path="PAW / Narzędzia / TEB Szkolenia"
+         data-desc="Oficjalne narzędzie do tworzenia materiałów promocyjnych zgodne z brandbookiem.">
+    </div>
+
+    <div class="app-container">
+        
+        <aside class="sidebar">
+            <div class="controls-panel card-base"> 
+                <h2 class="text-h2">Edytor</h2>
+
+                <div class="input-group" style="margin-bottom: var(--space-lg);">
+                    <label class="text-h3" style="color: var(--color-primary); text-transform: uppercase; font-size: 12px; display: flex; align-items: center; gap: 10px;">
+                        <span class="step-number">1</span>
+                        Wybierz Zdjęcie
+                    </label>
+                    
+                    <div  style="display: flex; flex-direction: column; gap: 8px;">
+                        <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                        <button class="btn btn-secondary" id="openGalleryBtn">
+                            <span data-icon="image"></span> Otwórz Galerię TEB
+                        </button>
+                        <button class="btn btn-secondary" onclick="document.getElementById('imageInput').click()">
+                            <span data-icon="upload"></span> Wgraj z dysku
+                        </button>
+
+                    </div>
+                    <small style="color: var(--text-tertiary); font-size: 11px; margin-top: 5px; display:block;">
+                        Zalecane: Zdjęcia z bazy wizerunkowej.
+                    </small>
+                </div>
+                
+                <hr style="border: 0; border-top: 1px solid var(--color-border); margin: 20px 0;">
+
+                <div class="input-group" style="margin-bottom: var(--space-lg);">
+                    <label class="text-h3" style="color: var(--color-primary); text-transform: uppercase; font-size: 12px; display: flex; align-items: center; gap: 10px;">
+                        <span class="step-number">2</span>
+                        Nazwa Kierunku
+                    </label>
+                    
+                    <textarea id="textInput" placeholder="Np. Technik Administracji&#10;Stylizacja Paznokci"></textarea>
+                    
+                    <span id="globalWarning" class="limit-warning" style="color: #d32f2f; font-size: 11px; font-weight: 700; margin-top: 5px; display: none;">
+                        ⚠️ Tekst jest zbyt długi! Skróć go.
+                    </span>
+                </div>
+
+                <div class="action-area" style="margin-top: auto;">
+                    <button class="btn btn-primary" id="downloadBtn" style="width: 100%;">
+                        <span data-icon="download"></span> Pobierz Paczkę (.zip)
+                    </button>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px; font-size: 11px; color: var(--text-tertiary);">
+                &copy; 2025 TEB Edukacja • System PAW v1.0<br>
+                Logowanie operacji aktywne.
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div style="margin-bottom: 20px;">
+                <span class="text-eyebrow">Materiały wyjściowe</span>
+                <h2 class="text-h2" style="border: none; padding: 0; margin: 0;">Podgląd Grafik</h2>
+            </div>
+
+            <div class="preview-grid" id="grid"></div>
+        </main>
+
+    </div>
+
+    <div id="galleryModal" class="modal-overlay">
+    <div class="gallery-window">
+        
+        <div class="gallery-header">
+            <div class="gallery-title">
+                <h3>Bank Zdjęć PAW</h3>
+                <span class="gallery-subtitle">Wybierz grafikę do projektu</span>
+            </div>
+            
+            <div class="gallery-search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="gallerySearchInput" placeholder="Szukaj (np. student, laboratorium)...">
+            </div>
+
+            <button id="closeGalleryBtn" class="btn-icon">
+                <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+
+        <div class="gallery-body">
+            <div class="gallery-sidebar">
+                <ul id="categoryList" class="category-list">
+                    </ul>
+            </div>
+
+            <div class="gallery-content">
+                <h4 id="currentCategoryTitle" class="content-title">Wybierz kategorię</h4>
+                <div id="galleryGrid" class="gallery-grid">
+                    </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    
+    <script src="js/core/icons.js"></script>
+    <script src="js/core/layout.js"></script>
+    <script src="js/core/generator.js"></script>
+    <script src="js/core/gallery.js"></script>
+
+    <script src="js/modules/config-szkolenia.js"></script>
+
+    <script>
+        // Startujemy generator z konfiguracją wczytaną z modułu
+        const app = new GraphicGenerator(SZKOLENIA_CONFIG);
+        app.init();
+
+        // Most dla Galerii
+        window.loadFromGallery = function(src) {
+            const img = new Image();
+            img.crossOrigin = "Anonymous";
+            img.onload = () => app.setUserImage(img);
+            img.src = src;
+        };
+    </script>
+</body>
+</html>

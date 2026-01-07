@@ -1,0 +1,1986 @@
+[
+    {
+        "id": "art-design",
+        "name": "Art&Design",
+        "images": [
+            {
+                "id": "art-design_001",
+                "filename": "Art&Design/Arteterapia w praktyce.png",
+                "title": "Arteterapia w praktyce",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "art-design_002",
+                "filename": "Art&Design/kule do kąpieli.png",
+                "title": "kule do kąpieli",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "art-design_003",
+                "filename": "Art&Design/Linoryt dla początkujących.png",
+                "title": "Linoryt dla początkujących",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "art-design_004",
+                "filename": "Art&Design/Malowanie obrazów.png",
+                "title": "Malowanie obrazów",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "art-design_005",
+                "filename": "Art&Design/Tworzenie świec sojowych.png",
+                "title": "Tworzenie świec sojowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "art-design_006",
+                "filename": "Art&Design/Zdobienia świąteczno - karnałowe.png",
+                "title": "Zdobienia świąteczno - karnałowe",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "dietetyka-i-fitness",
+        "name": "Dietetyka i fitness",
+        "images": [
+            {
+                "id": "dietetyka-i-fitness_001",
+                "filename": "Dietetyka i fitness/Cukrzyca w świecie.png",
+                "title": "Cukrzyca w świecie",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_002",
+                "filename": "Dietetyka i fitness/Dieta dla seniora.png",
+                "title": "Dieta dla seniora",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_003",
+                "filename": "Dietetyka i fitness/Dieta kobiet w ci y i po ogu.png",
+                "title": "Dieta kobiet w ci y i po ogu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_004",
+                "filename": "Dietetyka i fitness/Dieta wegetaria ska.png",
+                "title": "Dieta wegetaria ska",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_005",
+                "filename": "Dietetyka i fitness/Dietetyka  w endometriozie ONLINE.png",
+                "title": "Dietetyka  w endometriozie ONLINE",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_006",
+                "filename": "Dietetyka i fitness/Dietoterapia w zespole jelita drażliwego - IBS.png",
+                "title": "Dietoterapia w zespole jelita drażliwego - IBS",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_007",
+                "filename": "Dietetyka i fitness/Ergonomia pracy i wypoczynku.png",
+                "title": "Ergonomia pracy i wypoczynku",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_008",
+                "filename": "Dietetyka i fitness/Funkcjonalny trening zdrowotny.png",
+                "title": "Funkcjonalny trening zdrowotny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_009",
+                "filename": "Dietetyka i fitness/Masa w jednostkach chorobowych.png",
+                "title": "Masa w jednostkach chorobowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_010",
+                "filename": "Dietetyka i fitness/Metody mobilizacji tkanek w aktywności fizycznej.png",
+                "title": "Metody mobilizacji tkanek w aktywności fizycznej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_011",
+                "filename": "Dietetyka i fitness/Metodyka wykonywania ćwiczeń siłowych.png",
+                "title": "Metodyka wykonywania ćwiczeń siłowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_012",
+                "filename": "Dietetyka i fitness/Od ywianie w 12 krokach.png",
+                "title": "Od ywianie w 12 krokach",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_013",
+                "filename": "Dietetyka i fitness/Pies w miejskiej rzeczywistości – behawior i trening w środowisku miejskim.png",
+                "title": "Pies w miejskiej rzeczywistości – behawior i trening w środowisku miejskim",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_014",
+                "filename": "Dietetyka i fitness/Podstawy pilatesu.png",
+                "title": "Podstawy pilatesu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_015",
+                "filename": "Dietetyka i fitness/Podstawy programowania i periodyzacji treningu siłowego.png",
+                "title": "Podstawy programowania i periodyzacji treningu siłowego",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_016",
+                "filename": "Dietetyka i fitness/Terapia funkcjonalna ręki.png",
+                "title": "Terapia funkcjonalna ręki",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_017",
+                "filename": "Dietetyka i fitness/Trener personalny z elementami treningu medycznego.png",
+                "title": "Trener personalny z elementami treningu medycznego",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_018",
+                "filename": "Dietetyka i fitness/Trening medyczny (z elementami terapii manualnej).png",
+                "title": "Trening medyczny (z elementami terapii manualnej)",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_019",
+                "filename": "Dietetyka i fitness/Trening umiejętności społecznych.png",
+                "title": "Trening umiejętności społecznych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_020",
+                "filename": "Dietetyka i fitness/Trening zdrowotny w geriatrii.png",
+                "title": "Trening zdrowotny w geriatrii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "dietetyka-i-fitness_021",
+                "filename": "Dietetyka i fitness/Żywienie osób starszych.png",
+                "title": "Żywienie osób starszych",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "farmaceutyka",
+        "name": "Farmaceutyka",
+        "images": [
+            {
+                "id": "farmaceutyka_001",
+                "filename": "Farmaceutyka/Doradztwo farmaceutyczne.png",
+                "title": "Doradztwo farmaceutyczne",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_002",
+                "filename": "Farmaceutyka/Kaskada leków - wykorzystanie  leków ludzkich w weterynarii.png",
+                "title": "Kaskada leków - wykorzystanie  leków ludzkich w weterynarii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_003",
+                "filename": "Farmaceutyka/Podstawy dietetyki i suplementacji.png",
+                "title": "Podstawy dietetyki i suplementacji",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_004",
+                "filename": "Farmaceutyka/Refleksologia dłoni, stóp i twarzy.png",
+                "title": "Refleksologia dłoni, stóp i twarzy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_005",
+                "filename": "Farmaceutyka/Refleksologia stóp.jpg",
+                "title": "Refleksologia stóp",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_006",
+                "filename": "Farmaceutyka/Refleksologia stóp.png",
+                "title": "Refleksologia stóp",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_007",
+                "filename": "Farmaceutyka/Refleksoterapia rąk.png",
+                "title": "Refleksoterapia rąk",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_008",
+                "filename": "Farmaceutyka/Specjalistyczna pielęgnacja ran i receptura aseptyczna.png",
+                "title": "Specjalistyczna pielęgnacja ran i receptura aseptyczna",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_009",
+                "filename": "Farmaceutyka/Suplementy diety.png",
+                "title": "Suplementy diety",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "farmaceutyka_010",
+                "filename": "Farmaceutyka/Terapia bańkami lekarskimi.png",
+                "title": "Terapia bańkami lekarskimi",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "florystyka-i-ogrodnictwo",
+        "name": "Florystyka i ogrodnictwo",
+        "images": [
+            {
+                "id": "florystyka-i-ogrodnictwo_001",
+                "filename": "Florystyka i ogrodnictwo/Dekoracje florystyczne  i florystyka dekoracyjna  – podstawy.png",
+                "title": "Dekoracje florystyczne  i florystyka dekoracyjna  – podstawy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "florystyka-i-ogrodnictwo_002",
+                "filename": "Florystyka i ogrodnictwo/Florystyka komunijno-ślubna.jpg",
+                "title": "Florystyka komunijno-ślubna",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "florystyka-i-ogrodnictwo_003",
+                "filename": "Florystyka i ogrodnictwo/Kurs florystyczny - dekoracje bożonarodzeniowe.png",
+                "title": "Kurs florystyczny - dekoracje bożonarodzeniowe",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "florystyka-i-ogrodnictwo_004",
+                "filename": "Florystyka i ogrodnictwo/Las w szkle.png",
+                "title": "Las w szkle",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "florystyka-i-ogrodnictwo_005",
+                "filename": "Florystyka i ogrodnictwo/Warsztaty florystyczne.png",
+                "title": "Warsztaty florystyczne",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "fryzjerstwo",
+        "name": "Fryzjerstwo",
+        "images": [
+            {
+                "id": "fryzjerstwo_001",
+                "filename": "Fryzjerstwo/Barber - intensywny kurs tygodniowy.png",
+                "title": "Barber - intensywny kurs tygodniowy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "fryzjerstwo_002",
+                "filename": "Fryzjerstwo/Podstawy fryzjerstwa damskiego z elementami barberingu.png",
+                "title": "Podstawy fryzjerstwa damskiego z elementami barberingu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "fryzjerstwo_003",
+                "filename": "Fryzjerstwo/Warsztaty barberskie – podstawy strzyżenia męskiego.png",
+                "title": "Warsztaty barberskie – podstawy strzyżenia męskiego",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "grafika-i-fotografia",
+        "name": "Grafika i fotografia",
+        "images": [
+            {
+                "id": "grafika-i-fotografia_001",
+                "filename": "Grafika i fotografia/kurs fotografii - poziom podstawowy.png",
+                "title": "kurs fotografii - poziom podstawowy",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "inne",
+        "name": "Inne",
+        "images": [
+            {
+                "id": "inne_001",
+                "filename": "Inne/kursy dla maturzystów.png",
+                "title": "kursy dla maturzystów",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "inne_002",
+                "filename": "Inne/kursy dla ósmoklasistów.png",
+                "title": "kursy dla ósmoklasistów",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "inne_003",
+                "filename": "Inne/Matma Mission Possible..png",
+                "title": "Matma Mission Possible.",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "inne_004",
+                "filename": "Inne/Matma Reaktywacja - Turbo 30.png",
+                "title": "Matma Reaktywacja - Turbo 30",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "inne_005",
+                "filename": "Inne/Podstawy szycia.png",
+                "title": "Podstawy szycia",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "inne_006",
+                "filename": "Inne/Stylistka - Personal shopper.png",
+                "title": "Stylistka - Personal shopper",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "kierunki-medyczne",
+        "name": "Kierunki medyczne",
+        "images": [
+            {
+                "id": "kierunki-medyczne_001",
+                "filename": "Kierunki medyczne/Akupresura stopy.png",
+                "title": "Akupresura stopy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_002",
+                "filename": "Kierunki medyczne/Asystowanie podczas zabiegów chirurgicznych - Implanty.png",
+                "title": "Asystowanie podczas zabiegów chirurgicznych - Implanty",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_003",
+                "filename": "Kierunki medyczne/Bandażowanie.png",
+                "title": "Bandażowanie",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_004",
+                "filename": "Kierunki medyczne/Bańki chińskie i konchowanie uszu.png",
+                "title": "Bańki chińskie i konchowanie uszu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_005",
+                "filename": "Kierunki medyczne/Bańki ogniowe i konchowanie uszu.png",
+                "title": "Bańki ogniowe i konchowanie uszu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_006",
+                "filename": "Kierunki medyczne/Bezpieczne i skuteczne praktyki w endoskopii - od historii do nowoczesnych standardów.png",
+                "title": "Bezpieczne i skuteczne praktyki w endoskopii - od historii do nowoczesnych standardów",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_007",
+                "filename": "Kierunki medyczne/Choroby otępienne.jpg",
+                "title": "Choroby otępienne",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_008",
+                "filename": "Kierunki medyczne/Choroby stóp u osób starszych.png",
+                "title": "Choroby stóp u osób starszych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_009",
+                "filename": "Kierunki medyczne/Dawki w radioterapii.png",
+                "title": "Dawki w radioterapii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_010",
+                "filename": "Kierunki medyczne/Dekontaminacja narz dzi chirurgicznych i system w kontenerowych.png",
+                "title": "Dekontaminacja narz dzi chirurgicznych i system w kontenerowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_011",
+                "filename": "Kierunki medyczne/Empatia i komunikacja wobec pacjenta z afazją.png",
+                "title": "Empatia i komunikacja wobec pacjenta z afazją",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_012",
+                "filename": "Kierunki medyczne/Flossing w terapii okluzyjnej.png",
+                "title": "Flossing w terapii okluzyjnej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_013",
+                "filename": "Kierunki medyczne/Funkcjonalna praca z blizną.png",
+                "title": "Funkcjonalna praca z blizną",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_014",
+                "filename": "Kierunki medyczne/Jak radzić sobie z trudnym pacjentem – asertywność i efektywna komunikacja.png",
+                "title": "Jak radzić sobie z trudnym pacjentem – asertywność i efektywna komunikacja",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_015",
+                "filename": "Kierunki medyczne/Kinesiology taping.png",
+                "title": "Kinesiology taping",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_016",
+                "filename": "Kierunki medyczne/KRYTYCZNE MINUTY.png",
+                "title": "KRYTYCZNE MINUTY",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_017",
+                "filename": "Kierunki medyczne/Ochrona danych w zawodzie opiekun medyczny.jpg",
+                "title": "Ochrona danych w zawodzie opiekun medyczny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_018",
+                "filename": "Kierunki medyczne/Opieka nad pacjentem z PEG.png",
+                "title": "Opieka nad pacjentem z PEG",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_019",
+                "filename": "Kierunki medyczne/Opieka paliatywna  i pielęgnacja odleżyn.png",
+                "title": "Opieka paliatywna  i pielęgnacja odleżyn",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_020",
+                "filename": "Kierunki medyczne/Pielęgnacja pacjenta ze zmianami odleżynowymi, stopą cukrzycową.png",
+                "title": "Pielęgnacja pacjenta ze zmianami odleżynowymi, stopą cukrzycową",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_021",
+                "filename": "Kierunki medyczne/Pierwsza pomoc przedmedyczna.png",
+                "title": "Pierwsza pomoc przedmedyczna",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_022",
+                "filename": "Kierunki medyczne/Pierwsza pomoc.png",
+                "title": "Pierwsza pomoc",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_023",
+                "filename": "Kierunki medyczne/Pierwsza_Pomoc_1080x720.png",
+                "title": "Pierwsza Pomoc 1080x720",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_024",
+                "filename": "Kierunki medyczne/Podstawy fizjoterapii w pracy trenera personalnego.png",
+                "title": "Podstawy fizjoterapii w pracy trenera personalnego",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_025",
+                "filename": "Kierunki medyczne/Powertex - tworzenie trwałych i trójwymiarowych dzieł sztuki.png",
+                "title": "Powertex - tworzenie trwałych i trójwymiarowych dzieł sztuki",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_026",
+                "filename": "Kierunki medyczne/Procesy dekontaminacji.png",
+                "title": "Procesy dekontaminacji",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_027",
+                "filename": "Kierunki medyczne/Profesjonalna obsługa pacjenta i komunikacja w sytuacjach trudnych.png",
+                "title": "Profesjonalna obsługa pacjenta i komunikacja w sytuacjach trudnych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_028",
+                "filename": "Kierunki medyczne/Refrakcja I stopnia elementarne metody korekcji wad wzroku.png",
+                "title": "Refrakcja I stopnia elementarne metody korekcji wad wzroku",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_029",
+                "filename": "Kierunki medyczne/Sekrety pielęgnacji 50+.png",
+                "title": "Sekrety pielęgnacji 50+",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_030",
+                "filename": "Kierunki medyczne/Sterylizacja i dezynfekcja.png",
+                "title": "Sterylizacja i dezynfekcja",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_031",
+                "filename": "Kierunki medyczne/Taping twarzy.png",
+                "title": "Taping twarzy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_032",
+                "filename": "Kierunki medyczne/Taping w opiece okołociążowej i poporodowej.png",
+                "title": "Taping w opiece okołociążowej i poporodowej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_033",
+                "filename": "Kierunki medyczne/Terapia blizn.png",
+                "title": "Terapia blizn",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_034",
+                "filename": "Kierunki medyczne/Terapia powięziowa.png",
+                "title": "Terapia powięziowa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_035",
+                "filename": "Kierunki medyczne/Terapia ręki z elementami integracji sensorycznej i bilateralnej.png",
+                "title": "Terapia ręki z elementami integracji sensorycznej i bilateralnej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_036",
+                "filename": "Kierunki medyczne/Terapia ręki.png",
+                "title": "Terapia ręki",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_037",
+                "filename": "Kierunki medyczne/Terapia wisceralna - mobilizacja narządów wewnętrznych.png",
+                "title": "Terapia wisceralna - mobilizacja narządów wewnętrznych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_038",
+                "filename": "Kierunki medyczne/Terapia zajęciowa w geriatrii.png",
+                "title": "Terapia zajęciowa w geriatrii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_039",
+                "filename": "Kierunki medyczne/Zrozumieć ranę – profilaktyka i podstawy leczenia.png",
+                "title": "Zrozumieć ranę – profilaktyka i podstawy leczenia",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-medyczne_040",
+                "filename": "Kierunki medyczne/Świecowanie uszu.jpg",
+                "title": "Świecowanie uszu",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "kierunki-techniczne",
+        "name": "Kierunki techniczne",
+        "images": [
+            {
+                "id": "kierunki-techniczne_001",
+                "filename": "Kierunki techniczne/Przeciwbólowe techniki dla głowy i karku.png",
+                "title": "Przeciwbólowe techniki dla głowy i karku",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-techniczne_002",
+                "filename": "Kierunki techniczne/Sztuka relaksu – techniki relaksacyjne w pracy z dziećmi.png",
+                "title": "Sztuka relaksu – techniki relaksacyjne w pracy z dziećmi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kierunki-techniczne_003",
+                "filename": "Kierunki techniczne/Techniki graficzne w pracy z dziećmi, młodzieżą i dorosłymi.png",
+                "title": "Techniki graficzne w pracy z dziećmi, młodzieżą i dorosłymi",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "kosmetyka",
+        "name": "Kosmetyka",
+        "images": [
+            {
+                "id": "kosmetyka_001",
+                "filename": "Kosmetyka/3 szkolenia 1 cel - perfekcyjne paznokcie.png",
+                "title": "3 szkolenia 1 cel - perfekcyjne paznokcie",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_002",
+                "filename": "Kosmetyka/Analiza kolorystyczna ciała.png",
+                "title": "Analiza kolorystyczna ciała",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_003",
+                "filename": "Kosmetyka/Anatomia aparatu paznokciowego.png",
+                "title": "Anatomia aparatu paznokciowego",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_004",
+                "filename": "Kosmetyka/BB Lips.png",
+                "title": "BB Lips",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_005",
+                "filename": "Kosmetyka/Beauty taping (Taping estetyczny).png",
+                "title": "Beauty taping (Taping estetyczny)",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_006",
+                "filename": "Kosmetyka/Depilacja laserowa.png",
+                "title": "Depilacja laserowa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_007",
+                "filename": "Kosmetyka/Depilacja pastą cukrową.png",
+                "title": "Depilacja pastą cukrową",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_008",
+                "filename": "Kosmetyka/Dermokosmetyki w praktyce.png",
+                "title": "Dermokosmetyki w praktyce",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_009",
+                "filename": "Kosmetyka/Dermokosmetyki.png",
+                "title": "Dermokosmetyki",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_010",
+                "filename": "Kosmetyka/Face cupping i taping estetyczny.png",
+                "title": "Face cupping i taping estetyczny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_011",
+                "filename": "Kosmetyka/Glitter Glam Make-up - makijaż wieczorowy z użyciem brokatu.png",
+                "title": "Glitter Glam Make-up - makijaż wieczorowy z użyciem brokatu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_012",
+                "filename": "Kosmetyka/Henna brwi i rzęs.png",
+                "title": "Henna brwi i rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_013",
+                "filename": "Kosmetyka/Henna brwi.png",
+                "title": "Henna brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_014",
+                "filename": "Kosmetyka/Henna pudrowa + regulacja brwi.jpg",
+                "title": "Henna pudrowa + regulacja brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_015",
+                "filename": "Kosmetyka/Henna pudrowa + regulacja brwi.png",
+                "title": "Henna pudrowa + regulacja brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_016",
+                "filename": "Kosmetyka/Henna pudrowa brwi.png",
+                "title": "Henna pudrowa brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_017",
+                "filename": "Kosmetyka/Henna ust.png",
+                "title": "Henna ust",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_018",
+                "filename": "Kosmetyka/Koreańska laminacja rzęs.png",
+                "title": "Koreańska laminacja rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_019",
+                "filename": "Kosmetyka/Koreański lifting rzęs.png",
+                "title": "Koreański lifting rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_020",
+                "filename": "Kosmetyka/Koreański remodeling twarzy V shape - KORUGI.png",
+                "title": "Koreański remodeling twarzy V shape - KORUGI",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_021",
+                "filename": "Kosmetyka/Laminacja brwi + botox.png",
+                "title": "Laminacja brwi + botox",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_022",
+                "filename": "Kosmetyka/Laminacja brwi z geometrią.png",
+                "title": "Laminacja brwi z geometrią",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_023",
+                "filename": "Kosmetyka/Laminacja brwi.png",
+                "title": "Laminacja brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_024",
+                "filename": "Kosmetyka/Laminacja rzęs i brwi z koloryzacją.png",
+                "title": "Laminacja rzęs i brwi z koloryzacją",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_025",
+                "filename": "Kosmetyka/Laminacja rzęs i lash botox.png",
+                "title": "Laminacja rzęs i lash botox",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_026",
+                "filename": "Kosmetyka/Laminacja wraz architekturą  i geometrią brwi.png",
+                "title": "Laminacja wraz architekturą  i geometrią brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_027",
+                "filename": "Kosmetyka/Laserowy peeling węglowy.png",
+                "title": "Laserowy peeling węglowy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_028",
+                "filename": "Kosmetyka/Last Minute Glam – Makijaż Wieczorowy z Kępkami.png",
+                "title": "Last Minute Glam – Makijaż Wieczorowy z Kępkami",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_029",
+                "filename": "Kosmetyka/Lecznicze oczyszczanie manualne twarzy.png",
+                "title": "Lecznicze oczyszczanie manualne twarzy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_030",
+                "filename": "Kosmetyka/Lifting i laminacja brwi.png",
+                "title": "Lifting i laminacja brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_031",
+                "filename": "Kosmetyka/Lifting i laminacja rzęs.png",
+                "title": "Lifting i laminacja rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_032",
+                "filename": "Kosmetyka/Lifting rzęs.png",
+                "title": "Lifting rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_033",
+                "filename": "Kosmetyka/Lifting, botoks, laminacja rzęs i brwi.png",
+                "title": "Lifting, botoks, laminacja rzęs i brwi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_034",
+                "filename": "Kosmetyka/Lifting, botox i laminacja rzęs.png",
+                "title": "Lifting, botox i laminacja rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_035",
+                "filename": "Kosmetyka/Makijaż glow z kreską i celebrity look.png",
+                "title": "Makijaż glow z kreską i celebrity look",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_036",
+                "filename": "Kosmetyka/Makijaż ślubny.png",
+                "title": "Makijaż ślubny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_037",
+                "filename": "Kosmetyka/Manicure hybrydowy.png",
+                "title": "Manicure hybrydowy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_038",
+                "filename": "Kosmetyka/Manicure kombinowany.png",
+                "title": "Manicure kombinowany",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_039",
+                "filename": "Kosmetyka/Matte glam look - makijaż wieczorowy w macie.png",
+                "title": "Matte glam look - makijaż wieczorowy w macie",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_040",
+                "filename": "Kosmetyka/Mezoterapia mikroigłowa twarzy.png",
+                "title": "Mezoterapia mikroigłowa twarzy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_041",
+                "filename": "Kosmetyka/Mezoterapia mikroigłowa.png",
+                "title": "Mezoterapia mikroigłowa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_042",
+                "filename": "Kosmetyka/Oczyszczanie wodorowe i infuzja tlenowa.png",
+                "title": "Oczyszczanie wodorowe i infuzja tlenowa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_043",
+                "filename": "Kosmetyka/Pakiet laminacja brwi i lifting rzęs.png",
+                "title": "Pakiet laminacja brwi i lifting rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_044",
+                "filename": "Kosmetyka/Pedicure hybrydowy.png",
+                "title": "Pedicure hybrydowy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_045",
+                "filename": "Kosmetyka/Pedicure kosmetyczny.png",
+                "title": "Pedicure kosmetyczny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_046",
+                "filename": "Kosmetyka/Pielęgnacja i kosmetyka osób starszych.png",
+                "title": "Pielęgnacja i kosmetyka osób starszych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_047",
+                "filename": "Kosmetyka/Pinezkowanie twarzy  - podstawowe zasady wykonania.png",
+                "title": "Pinezkowanie twarzy  - podstawowe zasady wykonania",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_048",
+                "filename": "Kosmetyka/Przedłużanie i stylizacja rzęs.png",
+                "title": "Przedłużanie i stylizacja rzęs",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_049",
+                "filename": "Kosmetyka/Przedłużanie i zagęszczanie rzęs metodą 1-1.jpg",
+                "title": "Przedłużanie i zagęszczanie rzęs metodą 1-1",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_050",
+                "filename": "Kosmetyka/Przedłużanie i zagęszczanie rzęs metodą 1-1.png",
+                "title": "Przedłużanie i zagęszczanie rzęs metodą 1-1",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_051",
+                "filename": "Kosmetyka/Przedłużanie i zagęszczanie.png",
+                "title": "Przedłużanie i zagęszczanie",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_052",
+                "filename": "Kosmetyka/Przedłużanie paznokci metoda żelową.png",
+                "title": "Przedłużanie paznokci metoda żelową",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_053",
+                "filename": "Kosmetyka/Przedłużanie rzęs metodą 1 1.png",
+                "title": "Przedłużanie rzęs metodą 1 1",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_054",
+                "filename": "Kosmetyka/Rytuały relaksacyjne SPA.png",
+                "title": "Rytuały relaksacyjne SPA",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_055",
+                "filename": "Kosmetyka/Social media w bran y beauty.png",
+                "title": "Social media w bran y beauty",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_056",
+                "filename": "Kosmetyka/Stylizacja paznokci II stopnia.png",
+                "title": "Stylizacja paznokci II stopnia",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_057",
+                "filename": "Kosmetyka/Szkolenie trychologiczne_GDY.png",
+                "title": "Szkolenie trychologiczne GDY",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_058",
+                "filename": "Kosmetyka/Terapeuta SPA.png",
+                "title": "Terapeuta SPA",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_059",
+                "filename": "Kosmetyka/TOOTH GEMS – Biżuteria nazębna.png",
+                "title": "TOOTH GEMS – Biżuteria nazębna",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_060",
+                "filename": "Kosmetyka/Wakacyjne zdobienia paznokci.png",
+                "title": "Wakacyjne zdobienia paznokci",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_061",
+                "filename": "Kosmetyka/Zaawansowane peelingi kosmetyczne.png",
+                "title": "Zaawansowane peelingi kosmetyczne",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_062",
+                "filename": "Kosmetyka/Zdobienia świąteczno-karnawałowe paznokci.png",
+                "title": "Zdobienia świąteczno-karnawałowe paznokci",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "kosmetyka_063",
+                "filename": "Kosmetyka/Zmiany chorobowe paznokci.png",
+                "title": "Zmiany chorobowe paznokci",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "masaz",
+        "name": "Masaż",
+        "images": [
+            {
+                "id": "masaz_001",
+                "filename": "Masaż/Apiterapia, rodzaje i odmiany miodów ONLINE.png",
+                "title": "Apiterapia, rodzaje i odmiany miodów ONLINE",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_002",
+                "filename": "Masaż/Aromaterapia i olejki eteryczne - bezpieczeństwo, zastosowanie i praktyka.png",
+                "title": "Aromaterapia i olejki eteryczne - bezpieczeństwo, zastosowanie i praktyka",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_003",
+                "filename": "Masaż/Aurikuloterapia z wykorzystaniem ziaren.png",
+                "title": "Aurikuloterapia z wykorzystaniem ziaren",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_004",
+                "filename": "Masaż/Hawajski masaż  lomi lomi.png",
+                "title": "Hawajski masaż  lomi lomi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_005",
+                "filename": "Masaż/Japoński liftingujący masaż twarzy KOBIDO - bielenda.png",
+                "title": "Japoński liftingujący masaż twarzy KOBIDO - bielenda",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_006",
+                "filename": "Masaż/Japoński liftingujący masaż twarzy KOBIDO.png",
+                "title": "Japoński liftingujący masaż twarzy KOBIDO",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_007",
+                "filename": "Masaż/Japoński masażu liftingującego KOBIDO.png",
+                "title": "Japoński masażu liftingującego KOBIDO",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_008",
+                "filename": "Masaż/Kapilaroterapia – masaż szklaną bańką kosmetyczną.png",
+                "title": "Kapilaroterapia – masaż szklaną bańką kosmetyczną",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_009",
+                "filename": "Masaż/Kobido + Face taping.png",
+                "title": "Kobido + Face taping",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_010",
+                "filename": "Masaż/Kobido.png",
+                "title": "Kobido",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_011",
+                "filename": "Masaż/Lomi Lomi Nui.png",
+                "title": "Lomi Lomi Nui",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_012",
+                "filename": "Masaż/Masaż ajurwedyjski - abhyanga, shiroabhyanga, udvartana.png",
+                "title": "Masaż ajurwedyjski - abhyanga, shiroabhyanga, udvartana",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_013",
+                "filename": "Masaż/Masaż antycelulitowy - uda, pośladki.png",
+                "title": "Masaż antycelulitowy - uda, pośladki",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_014",
+                "filename": "Masaż/Masaż aromaterapeutyczny ciała – masaż relaksacyjny.png",
+                "title": "Masaż aromaterapeutyczny ciała – masaż relaksacyjny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_015",
+                "filename": "Masaż/Masaż balijski.png",
+                "title": "Masaż balijski",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_016",
+                "filename": "Masaż/Masaż bańką chińską,.png",
+                "title": "Masaż bańką chińską,",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_017",
+                "filename": "Masaż/Masaż bańką chińską.png",
+                "title": "Masaż bańką chińską",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_018",
+                "filename": "Masaż/Masaż czekoladą i miodem.png",
+                "title": "Masaż czekoladą i miodem",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_019",
+                "filename": "Masaż/Masaż gorącymi kamieniami.png",
+                "title": "Masaż gorącymi kamieniami",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_020",
+                "filename": "Masaż/Masaż i elementy terapii w praktyce opiekuna osób starszych.png",
+                "title": "Masaż i elementy terapii w praktyce opiekuna osób starszych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_021",
+                "filename": "Masaż/Masaż kobido.png",
+                "title": "Masaż kobido",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_022",
+                "filename": "Masaż/Masaż Korugi - manualny lifting twarzy.png",
+                "title": "Masaż Korugi - manualny lifting twarzy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_023",
+                "filename": "Masaż/Masaż kosmetyczny.png",
+                "title": "Masaż kosmetyczny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_024",
+                "filename": "Masaż/Masaż liftingujący twarzy bańkami chińskimi.jpg",
+                "title": "Masaż liftingujący twarzy bańkami chińskimi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_025",
+                "filename": "Masaż/Masaż lodem.png",
+                "title": "Masaż lodem",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_026",
+                "filename": "Masaż/Masaż psychosomatyczny.png",
+                "title": "Masaż psychosomatyczny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_027",
+                "filename": "Masaż/Masaż punktów spustowych.png",
+                "title": "Masaż punktów spustowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_028",
+                "filename": "Masaż/Masaż relaksacyjny.png",
+                "title": "Masaż relaksacyjny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_029",
+                "filename": "Masaż/Masaż Shantala.png",
+                "title": "Masaż Shantala",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_030",
+                "filename": "Masaż/Masaż stemplami ziołowymi.png",
+                "title": "Masaż stemplami ziołowymi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_031",
+                "filename": "Masaż/Masaż tajski stóp i podudzi.png",
+                "title": "Masaż tajski stóp i podudzi",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_032",
+                "filename": "Masaż/Masaż tkanek głębokich.png",
+                "title": "Masaż tkanek głębokich",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_033",
+                "filename": "Masaż/Masaż transbukalny.png",
+                "title": "Masaż transbukalny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_034",
+                "filename": "Masaż/Masaż twarzy anty-aging.png",
+                "title": "Masaż twarzy anty-aging",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_035",
+                "filename": "Masaż/Masaż w jednostkach chorobowych.jpg",
+                "title": "Masaż w jednostkach chorobowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_036",
+                "filename": "Masaż/Masaż w rwie barkowej.png",
+                "title": "Masaż w rwie barkowej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_037",
+                "filename": "Masaż/Masaż w rwie kulszowej.png",
+                "title": "Masaż w rwie kulszowej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_038",
+                "filename": "Masaż/Opracowanie blizny w praktyce masażysty.png",
+                "title": "Opracowanie blizny w praktyce masażysty",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_039",
+                "filename": "Masaż/Stawianie baniek ogniowych.png",
+                "title": "Stawianie baniek ogniowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "masaz_040",
+                "filename": "Masaż/Terapia manualna aparatu stomatognatycznego z elementami kinesiotapingu.png",
+                "title": "Terapia manualna aparatu stomatognatycznego z elementami kinesiotapingu",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "nauka-jezykow",
+        "name": "Nauka języków",
+        "images": [
+            {
+                "id": "nauka-jezykow_001",
+                "filename": "Nauka języków/Język polski  dla obcokrajowców B1 - przygotowanie do egzaminu.png",
+                "title": "Język polski  dla obcokrajowców B1 - przygotowanie do egzaminu",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "obsluga-programow-komputerowych",
+        "name": "Obsługa programów komputerowych",
+        "images": [
+            {
+                "id": "obsluga-programow-komputerowych_001",
+                "filename": "Obsługa programów komputerowych/Adobe Lightroom dla początkujących.png",
+                "title": "Adobe Lightroom dla początkujących",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_002",
+                "filename": "Obsługa programów komputerowych/Canva dla biznesu.png",
+                "title": "Canva dla biznesu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_003",
+                "filename": "Obsługa programów komputerowych/Canva dla nauczycieli.png",
+                "title": "Canva dla nauczycieli",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_004",
+                "filename": "Obsługa programów komputerowych/Canva od podstaw.png",
+                "title": "Canva od podstaw",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_005",
+                "filename": "Obsługa programów komputerowych/EXCEL od podstaw.png",
+                "title": "EXCEL od podstaw",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_006",
+                "filename": "Obsługa programów komputerowych/identyfikacja wizualna z wykorzystaniem programu  Adobe Illustrator.png",
+                "title": "identyfikacja wizualna z wykorzystaniem programu  Adobe Illustrator",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_007",
+                "filename": "Obsługa programów komputerowych/Kurs komputerowy dla seniorów – nauka podstaw i bezpiecznego korzystania z sieci.png",
+                "title": "Kurs komputerowy dla seniorów – nauka podstaw i bezpiecznego korzystania z sieci",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_008",
+                "filename": "Obsługa programów komputerowych/Lightroom - rewolucja w fotografii.png",
+                "title": "Lightroom - rewolucja w fotografii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_009",
+                "filename": "Obsługa programów komputerowych/MS Office.png",
+                "title": "MS Office",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_010",
+                "filename": "Obsługa programów komputerowych/WordPress - średniozaawansowany.png",
+                "title": "WordPress - średniozaawansowany",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "obsluga-programow-komputerowych_011",
+                "filename": "Obsługa programów komputerowych/Wprowadzenie do robotyki.png",
+                "title": "Wprowadzenie do robotyki",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "organizacja-i-zarzadzanie",
+        "name": "Organizacja i zarządzanie",
+        "images": [
+            {
+                "id": "organizacja-i-zarzadzanie_001",
+                "filename": "Organizacja i zarządzanie/Inspektor ochrony danych.png",
+                "title": "Inspektor ochrony danych",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "pedagogika-i-opieka",
+        "name": "Pedagogika i opieka",
+        "images": [
+            {
+                "id": "pedagogika-i-opieka_001",
+                "filename": "Pedagogika i opieka/Animator czasu wolnego.png",
+                "title": "Animator czasu wolnego",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_002",
+                "filename": "Pedagogika i opieka/Animator zabaw dziecięcych.png",
+                "title": "Animator zabaw dziecięcych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_003",
+                "filename": "Pedagogika i opieka/Bajkoterapia.png",
+                "title": "Bajkoterapia",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_004",
+                "filename": "Pedagogika i opieka/Empatia wliczona na własnej skórze.png",
+                "title": "Empatia wliczona na własnej skórze",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_005",
+                "filename": "Pedagogika i opieka/Muzykoterapia.png",
+                "title": "Muzykoterapia",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_006",
+                "filename": "Pedagogika i opieka/Nie jesteś sam  – praktyczny kurs opieki  nad osobą leżącą.png",
+                "title": "Nie jesteś sam  – praktyczny kurs opieki  nad osobą leżącą",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_007",
+                "filename": "Pedagogika i opieka/Problemy związane z otępieniem.png",
+                "title": "Problemy związane z otępieniem",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_008",
+                "filename": "Pedagogika i opieka/Radzenie sobie ze stresem i kontrolowanie emocji.png",
+                "title": "Radzenie sobie ze stresem i kontrolowanie emocji",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_009",
+                "filename": "Pedagogika i opieka/Reedukacja chodu.png",
+                "title": "Reedukacja chodu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_010",
+                "filename": "Pedagogika i opieka/Senior w świecie prawa przewodnik po ważnych sprawach życiowych.png",
+                "title": "Senior w świecie prawa przewodnik po ważnych sprawach życiowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_011",
+                "filename": "Pedagogika i opieka/Stymulacja zmysłów osoby starszej.png",
+                "title": "Stymulacja zmysłów osoby starszej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_012",
+                "filename": "Pedagogika i opieka/Sztuka bycia blisko –rozwój relacji i samoświadomości.png",
+                "title": "Sztuka bycia blisko –rozwój relacji i samoświadomości",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_013",
+                "filename": "Pedagogika i opieka/Taniec w przedszkolu.png",
+                "title": "Taniec w przedszkolu",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "pedagogika-i-opieka_014",
+                "filename": "Pedagogika i opieka/Wychowawca wypoczynku.png",
+                "title": "Wychowawca wypoczynku",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "sprzedaz-i-marketing",
+        "name": "Sprzedaż i marketing",
+        "images": [
+            {
+                "id": "sprzedaz-i-marketing_001",
+                "filename": "Sprzedaż i marketing/Instagram dla Biznesu Od Strategii do Sprzeda y.png",
+                "title": "Instagram dla Biznesu Od Strategii do Sprzeda y",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "sprzedaz-i-marketing_002",
+                "filename": "Sprzedaż i marketing/Marketing wydawniczy.png",
+                "title": "Marketing wydawniczy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "sprzedaz-i-marketing_003",
+                "filename": "Sprzedaż i marketing/Public Relations i Media Relations (w tym e-PR).png",
+                "title": "Public Relations i Media Relations (w tym e-PR)",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "sprzedaz-i-marketing_004",
+                "filename": "Sprzedaż i marketing/Public Relations i Media Relations w tym e-PR.png",
+                "title": "Public Relations i Media Relations w tym e-PR",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "sprzedaz-i-marketing_005",
+                "filename": "Sprzedaż i marketing/Social Media od A do Z dla przedsiębiorców.png",
+                "title": "Social Media od A do Z dla przedsiębiorców",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "sprzedaz-i-marketing_006",
+                "filename": "Sprzedaż i marketing/Social media.png",
+                "title": "Social media",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "sprzedaz-i-marketing_007",
+                "filename": "Sprzedaż i marketing/Startuj z Agencją Social Media - Od Freelancera do Właściciela.png",
+                "title": "Startuj z Agencją Social Media - Od Freelancera do Właściciela",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "stomatologia",
+        "name": "Stomatologia",
+        "images": [
+            {
+                "id": "stomatologia_001",
+                "filename": "Stomatologia/Asystowanie w endodoncji.png",
+                "title": "Asystowanie w endodoncji",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_002",
+                "filename": "Stomatologia/Asystowanie w implantologii z elementami procedur chirurgicznych.png",
+                "title": "Asystowanie w implantologii z elementami procedur chirurgicznych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_003",
+                "filename": "Stomatologia/Bezpieczeństwo, dekontaminacja i ortodoncja w praktyce higienistki i asystentki stomatologicznej.png",
+                "title": "Bezpieczeństwo, dekontaminacja i ortodoncja w praktyce higienistki i asystentki stomatologicznej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_004",
+                "filename": "Stomatologia/Dokumentacja medyczna w stomatologii.jpg",
+                "title": "Dokumentacja medyczna w stomatologii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_005",
+                "filename": "Stomatologia/Edukacja pacjentów w zakresie zdrowia i higieny jamy ustnej.png",
+                "title": "Edukacja pacjentów w zakresie zdrowia i higieny jamy ustnej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_006",
+                "filename": "Stomatologia/Elementy fizjoterapii w stomatologii.png",
+                "title": "Elementy fizjoterapii w stomatologii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_007",
+                "filename": "Stomatologia/Fluoryzacja i lakowanie zębów.png",
+                "title": "Fluoryzacja i lakowanie zębów",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_008",
+                "filename": "Stomatologia/Higienizacja pacjenta periodontologicznego – skaling poddziąsłowy.jpg",
+                "title": "Higienizacja pacjenta periodontologicznego – skaling poddziąsłowy",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_009",
+                "filename": "Stomatologia/Higienizacja pacjenta – etap początkujący i zaawansowany.png",
+                "title": "Higienizacja pacjenta – etap początkujący i zaawansowany",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_010",
+                "filename": "Stomatologia/ICON - innowacyjne leczenie próchnicy i przebarwień.png",
+                "title": "ICON - innowacyjne leczenie próchnicy i przebarwień",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_011",
+                "filename": "Stomatologia/Ochrona radiologiczna.png",
+                "title": "Ochrona radiologiczna",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_012",
+                "filename": "Stomatologia/Pacjent w podeszłym wieku w gabinecie stomatologicznym.png",
+                "title": "Pacjent w podeszłym wieku w gabinecie stomatologicznym",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_013",
+                "filename": "Stomatologia/Podstawy pracy w gabinecie stomatologicznym – kurs intensywny.png",
+                "title": "Podstawy pracy w gabinecie stomatologicznym – kurs intensywny",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_014",
+                "filename": "Stomatologia/Profesjonalna higienizacja - Instruktaż i motywowanie pacjenta w gabinecie.png",
+                "title": "Profesjonalna higienizacja - Instruktaż i motywowanie pacjenta w gabinecie",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_015",
+                "filename": "Stomatologia/Profesjonalne wybielanie zębów w gabinecie stomatologicznym.png",
+                "title": "Profesjonalne wybielanie zębów w gabinecie stomatologicznym",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_016",
+                "filename": "Stomatologia/Profilaktyka próchnicy-lakowanie i lakierowanie zębów.png",
+                "title": "Profilaktyka próchnicy-lakowanie i lakierowanie zębów",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_017",
+                "filename": "Stomatologia/RTG w stomatologii.png",
+                "title": "RTG w stomatologii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_018",
+                "filename": "Stomatologia/Skaling i piaskowanie w codziennej praktyce stomatologicznej.png",
+                "title": "Skaling i piaskowanie w codziennej praktyce stomatologicznej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_019",
+                "filename": "Stomatologia/Skaling, piaskowanie, kiretaż w codziennej praktyce stomatologicznej.png",
+                "title": "Skaling, piaskowanie, kiretaż w codziennej praktyce stomatologicznej",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_020",
+                "filename": "Stomatologia/Sterylizacja i dezynfekcja, jako podstawowy element pracy w gabinecie stomatologicznym.png",
+                "title": "Sterylizacja i dezynfekcja, jako podstawowy element pracy w gabinecie stomatologicznym",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_021",
+                "filename": "Stomatologia/Sterylizacja w stomatologii.png",
+                "title": "Sterylizacja w stomatologii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_022",
+                "filename": "Stomatologia/Technika radiologii w diagnostyce i terapii.jpg",
+                "title": "Technika radiologii w diagnostyce i terapii",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "stomatologia_023",
+                "filename": "Stomatologia/Wprowadzenie do chirurgii stomatologicznej i implantologii.png",
+                "title": "Wprowadzenie do chirurgii stomatologicznej i implantologii",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    },
+    {
+        "id": "weterynaria",
+        "name": "Weterynaria",
+        "images": [
+            {
+                "id": "weterynaria_001",
+                "filename": "Weterynaria/asystent Lekarza Weterynarii - Zwierzęta Egzotyczne.png",
+                "title": "asystent Lekarza Weterynarii - Zwierzęta Egzotyczne",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_002",
+                "filename": "Weterynaria/Farmakoterapia zwierząt domowych.png",
+                "title": "Farmakoterapia zwierząt domowych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_003",
+                "filename": "Weterynaria/Groomer – podstawy z elementami behawiorystyki zwierząt.png",
+                "title": "Groomer – podstawy z elementami behawiorystyki zwierząt",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_004",
+                "filename": "Weterynaria/Od impulsywności do samoregulacji – emocje i zachowanie psa.png",
+                "title": "Od impulsywności do samoregulacji – emocje i zachowanie psa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_005",
+                "filename": "Weterynaria/Podstawy żywienia psów i kotów.png",
+                "title": "Podstawy żywienia psów i kotów",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_006",
+                "filename": "Weterynaria/Rozr d kot w i asysta porodowa.png",
+                "title": "Rozr d kot w i asysta porodowa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_007",
+                "filename": "Weterynaria/Rozr d ps w i asysta porodowa.png",
+                "title": "Rozr d ps w i asysta porodowa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_008",
+                "filename": "Weterynaria/Rozród psów i asysta porodowa.png",
+                "title": "Rozród psów i asysta porodowa",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_009",
+                "filename": "Weterynaria/Warsztaty groomerskie – pielęgnacja, strzyżenie psów i kotów (poziom zaawansowany).png",
+                "title": "Warsztaty groomerskie – pielęgnacja, strzyżenie psów i kotów (poziom zaawansowany)",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_010",
+                "filename": "Weterynaria/warsztaty ze strzyżenia i pielęgnacji zwierząt - grooming.png",
+                "title": "warsztaty ze strzyżenia i pielęgnacji zwierząt - grooming",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_011",
+                "filename": "Weterynaria/Zrozumieć kawie - żywienie, warunki utrzymania oraz behawior świnkowych  podopiecznych.png",
+                "title": "Zrozumieć kawie - żywienie, warunki utrzymania oraz behawior świnkowych  podopiecznych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_012",
+                "filename": "Weterynaria/Zrozumieć królika - żywienie, warunki utrzymania oraz behawior kroliczych podopiecznych.png",
+                "title": "Zrozumieć królika - żywienie, warunki utrzymania oraz behawior kroliczych podopiecznych",
+                "tags": [],
+                "isNew": false
+            },
+            {
+                "id": "weterynaria_013",
+                "filename": "Weterynaria/Zrozumieć papugę - żywienie, potrzeby i  behawior ptasich podopiecznych.png",
+                "title": "Zrozumieć papugę - żywienie, potrzeby i  behawior ptasich podopiecznych",
+                "tags": [],
+                "isNew": false
+            }
+        ]
+    }
+]

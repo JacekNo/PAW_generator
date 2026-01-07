@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator QR | PAW System</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modules/qr.css">
+    
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+
+    <div class="ambient-fog"></div>
+
+    <div id="paw-nav"></div>
+
+    <div style="max-width: 1000px; margin: 20px auto 0; padding: 0 20px;">
+        <a href="index.html" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; font-weight: 500;">
+            &larr; Wróć do Pulpitu
+        </a>
+    </div>
+
+    <main class="page-container" style="max-width: 1000px; margin: 20px auto 40px; padding: 0 20px;">
+        
+        <div class="generator-grid">
+            
+            <div class="card-editor">
+                <header style="margin-bottom: 24px;">
+                    <h1 style="color: var(--color-primary); margin: 0 0 8px 0; font-size: 1.75rem;">Generator Kodów QR</h1>
+                    <p style="color: var(--text-secondary); line-height: 1.5;">
+                        Twórz bezpieczne kody QR zgodne z identyfikacją wizualną TEB.
+                        Formaty PNG (Druk) oraz SVG (Wektor).
+                    </p>
+                </header>
+
+                <div class="input-group">
+                    <label for="inputUrl">Link docelowy</label>
+                    <input type="text" id="inputUrl" placeholder="teb.pl" autocomplete="off" spellcheck="false">
+                    <div id="urlError" class="error-msg" style="display: none;">
+                        <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" style="margin-right: 6px;"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/></svg>
+                        <span>Podaj poprawny adres (np. teb.pl lub .com)</span>
+                    </div>
+                </div>
+
+                <div class="toggle-container">
+                    <label class="switch">
+                        <input type="checkbox" id="checkNegative">
+                        <span class="slider"></span>
+                    </label>
+                    <div>
+                        <div style="font-weight: 600; color: var(--text-primary);">Tryb granatowy</div>
+                        <div style="font-size: 0.85rem; color: var(--text-secondary);">Biały kod na granatowym tle</div>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <button id="btnPng" class="btn-primary btn-large" disabled>
+                        Pobierz PNG
+                    </button>
+                    <button id="btnSvg" class="btn-outline btn-large" disabled>
+                        Pobierz SVG
+                    </button>
+                </div>
+            </div>
+
+            <div class="card-preview">
+                <div class="qr-stack">
+                    <div id="qr-target">
+                        </div>
+                </div>
+                <div style="font-size: 0.85rem; color: var(--text-tertiary); font-weight: 500;">
+                    Podgląd rzeczywisty
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/core/icons.js"></script>
+    <script src="js/core/layout.js"></script> 
+
+    <script src="js/vendor/qrcode.min.js"></script>
+    
+    <script src="js/core/qr-generator.js"></script> 
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Inicjalizacja klasy z core/qr-generator.js
+            const qrManager = new QRManager('qr-target');
+            
+            // Uchwyty do elementów DOM
+            const ui = {
+                input: document.getElementById('inputUrl'),
+                error: document.getElementById('urlError'),
+                btnPng: document.getElementById('btnPng'),
+                btnSvg: document.getElementById('btnSvg'),
+                toggle: document.getElementById('checkNegative')
+            };
+
+            // Stan początkowy (Pusty)
+            qrManager.generate(''); 
+
+            // --- Funkcja Walidacji i Generowania ---
+            const handleInput = () => {
+                const text = ui.input.value.trim();
+                
+                // 1. Jeśli pusto: wyczyść, schowaj błędy, zablokuj przyciski
+                if (!text) {
+                    setValidState(false, false); 
+                    qrManager.generate('');
+                    return;
+                }
+
+                // 2. Jeśli URL poprawny: odblokuj, wygeneruj
+                if (qrManager.isValidUrl(text)) {
+                    setValidState(true);
+                    
+                    // Auto-fix: Dodaj https:// jeśli brakuje (dla kodu QR), ale nie zmieniaj inputa użytkownika
+                    const urlToEncode = /^https?:\/\//i.test(text) ? text : 'https://' + text;
+                    qrManager.generate(urlToEncode);
+                } 
+                // 3. Jeśli błędny: pokaż błąd
+                else {
+                    setValidState(false, true); // true = pokaż komunikat błędu
+                }
+            };
+
+            // Pomocnik do zarządzania stanem UI (Kolory, blokady przycisków)
+            const setValidState = (isValid, showMsg = false) => {
+                if (isValid) {
+                    ui.input.classList.remove('input-invalid');
+                    ui.error.style.display = 'none';
+                    ui.btnPng.disabled = false;
+                    ui.btnSvg.disabled = false;
+                } else {
+                    if (showMsg) {
+                        ui.input.classList.add('input-invalid');
+                        ui.error.style.display = 'flex';
+                    } else {
+                        ui.input.classList.remove('input-invalid');
+                        ui.error.style.display = 'none';
+                    }
+                    ui.btnPng.disabled = true;
+                    ui.btnSvg.disabled = true;
+                }
+            };
+
+            // --- Event Listeners ---
+            
+            // Pisanie (z opóźnieniem 300ms dla wydajności)
+            let timer;
+            ui.input.addEventListener('input', () => {
+                clearTimeout(timer);
+                timer = setTimeout(handleInput, 300);
+            });
+
+            // Przełącznik Negatyw
+            ui.toggle.addEventListener('change', (e) => {
+                qrManager.setNegative(e.target.checked);
+            });
+            
+            // Pobieranie PNG
+            ui.btnPng.addEventListener('click', () => {
+                if(!ui.btnPng.disabled) {
+                    qrManager.downloadPNG(`teb-qr-${Date.now()}`);
+                }
+            });
+            
+            // Pobieranie SVG
+            ui.btnSvg.addEventListener('click', () => {
+                if(!ui.btnSvg.disabled) {
+                    qrManager.downloadSVG(`teb-qr-${Date.now()}`);
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
